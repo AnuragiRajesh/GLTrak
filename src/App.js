@@ -3,7 +3,6 @@ import Login from './Pages/login';
 import ims2 from './images/loginImage.png'
 
 
-//dfighdfghjosdfgh
 
 function App() {
   return (
