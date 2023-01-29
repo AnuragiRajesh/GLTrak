@@ -6,10 +6,10 @@ import ims2 from './images/loginImage.png'
 
 function App() {
   return (
-<div className='App' style={{display:'flex',}}>
+<div className='App' style={{display:'flex', flexDirection:'row'}}>
 
-<div  >  <img className='imageDiv' src={ims2} alt="" /> </div>
-<div style={{textAlign:'right'}} >
+<div>  <img className='imageDiv' src={ims2} alt="" /> </div>
+<div>
   
   <Login />
 </div>
