@@ -68,16 +68,16 @@ opacity: '1'}}>TAG's MANAGEMENT SYSTEM</div>
     </div>
 <div style={{display:'flex', justifyContent:'space-evenly'}}>
 
-    <button style={{width:'25%' , padding:'5px', background:'#43425D 0% 0% no-repeat padding-box',border:' 1px solid #43425D',borderRadius:'8px'}} onClick={submitButton}><p style={{textAlign: 'center',
+    <button style={{width:'25%' , padding:'5px', background:'#43425D 0% 0% no-repeat padding-box',border:' 1px solid #43425D',borderRadius:'8px'}} onClick={submitButton}><span style={{textAlign: 'center',
 font:' normal normal normal 15px/19px Montserrat',
 letterSpacing:' 0px',
 color: '#FFFFFF',
-opacity: '1'}}>Login</p></button>
-    <button  style={{width:'25%' , padding:'5px', background:'#43425D 0% 0% no-repeat padding-box',border:' 1px solid #43425D',borderRadius:'8px'}}  onClick={submitButton}><p style={{textAlign: 'center',
+opacity: '1'}}>Login</span></button>
+    <button  style={{width:'25%' , padding:'5px', background:'#43425D 0% 0% no-repeat padding-box',border:' 1px solid #43425D',borderRadius:'8px'}}  onClick={submitButton}><span style={{textAlign: 'center',
 font:' normal normal normal 15px/19px Montserrat',
 letterSpacing:' 0px',
 color: '#FFFFFF',
-opacity: '1'}}>Sign up</p></button>
+opacity: '1'}}>Sign up</span></button>
 </div>
 </div>
 </div>

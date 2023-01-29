@@ -13,7 +13,6 @@ function App() {
   
   <Login />
 </div>
-{/* </header> */}
 
 </div>
   );
