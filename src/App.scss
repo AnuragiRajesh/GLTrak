@@ -1,0 +1,117 @@
+
+
+
+
+.forgot_pass{
+ font-size: small;
+}
+
+
+.remember_me_text {
+  font-size: small;
+  margin-left: 5px;
+ margin-bottom: 10px;
+}
+.login-image-div {
+  // display: inline-block;
+  // min-height: 150px;
+  background-image: url("./images//loginImage.png");
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  width: 50%;
+  // max-width: 500px;
+  // border: 1px solid black;
+  // min-width: 300px;
+  // margin-bottom: 8px;
+}
+
+.login-div {
+  display: flex;
+}
+
+.top-Heading {
+
+  margin: 2rem;
+  text-align: center;
+  font :normal normal bold 25px/16px Montserrat;
+
+  letter-spacing: 0.63px;
+  color: #43425D;
+  opacity: 1
+}
+
+.sub-Heading {
+
+  text-align: center;
+  font: normal normal normal 15px/11px Montserrat;
+  letter-spacing: 0px;
+  color: #4D4F5C;
+  opacity: 0.5;
+  margin-top: 2rem
+}
+
+.form-div {
+  // display: inline-block;
+  // min-height: 150px;
+  width: 5 0%;
+  margin-top: 3rem;
+  // border: 1px solid black;
+  // min-width: 300px;
+  // margin-bottom: 8px;
+}
+
+.form-input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #909090;
+  width: 50%;
+  margin: 10px;
+   ;
+}
+
+.custome-form {
+  text-align: center;
+  width: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-evenly;
+}
+
+.RememberME-ForgotPassword {
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  display: flex;
+  gap: 10%;
+  ;
+  justify-content: center;
+
+}
+
+.Login-SignUp-button-div {
+  margin: 2px;
+  text-align: center;
+  display: flex;
+  gap: 5px;
+  ;
+  justify-content: center;
+}
+
+.login-lignUp-buttons {
+  width: 20%;
+  padding: 5px;
+  background: #43425D 0% 0% no-repeat padding-box;
+  border: 1px solid #43425D;
+  border-radius: 8px
+}
+
+.login-lignUp-buttons span {
+  text-align: center;
+  font: normal normal normal 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}

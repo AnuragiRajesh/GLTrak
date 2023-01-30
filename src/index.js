@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
+window.jQuery = $;
+window.Popper = Popper;
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

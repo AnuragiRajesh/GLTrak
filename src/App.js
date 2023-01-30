@@ -1,20 +1,22 @@
-import './App.css';
+import './App.scss';
 import Login from './Pages/login';
 import ims2 from './images/loginImage.png'
-
+import "@fontsource/montserrat";
 
 
 function App() {
   return (
-<div className='App' style={{display:'flex', flexDirection:'row'}}>
 
-<div>  <img className='imageDiv' src={ims2} alt="" /> </div>
-<div>
-  
-  <Login />
-</div>
 
-</div>
+<Login/>
+
+
+
+
+
+
+
+
   );
 }
 
