@@ -3,21 +3,19 @@ import ima3 from '../images/SESHASAI.png'
 import '../App.scss';
 import "@fontsource/montserrat";
 function Login() {
-    const [inputField, setInputField] = useState({
+    const [userNameInputField, setuserNameInputField] = useState('')
+    const [passwordInputField, setPasswordInputField] = useState('')
 
-        Username: '',
-        password: '',
-        remember_me: false
-    })
-
-    const inputsHandler = (e) => {
-        debugger
-        console.log(e.target.value, "fff")
-        setInputField({ [e.target.name]: e.target.value })
+    const userNameInputsHandler = (e) => {
+        setuserNameInputField(e.target.value)
+    }
+    const passwordInputsHandler = (e) => {
+        setPasswordInputField(e.target.value)
     }
     
     const submitButton = () => {
-        alert(inputField.Username, inputField.password, inputField.remember_me)
+        // console.log("UserName:", userNameInputField, "Password:",passwordInputField)
+      alert(`Username:${userNameInputField} ,  Password: ${passwordInputField} ` )
     }
     return <div className="login-div" >
         <div className="login-image-div" ></div>
@@ -34,30 +32,28 @@ function Login() {
             <div className='custome-form'>
                 <input className='form-input'
                     type="text" name="Username"
-                    onChange={inputsHandler}
+                    onChange={userNameInputsHandler}
                     placeholder="Username"
-                    value={inputField.Username}
+                    value={userNameInputField}
                 />
 
                 <br />
-
+                
                 <input className='form-input'
-                    type="password" name="password"
-                    onChange={inputsHandler}
+                    type="password" name="Password"
+                    onChange={passwordInputsHandler}
                     placeholder="Password"
-                    value={inputField.password}/>
-            
-
+                    value={passwordInputField}/>
  <div>
                 <div className='RememberME-ForgotPassword'>
-                    <div > <input className="remember_me" onChange={inputsHandler} type="checkbox" /> 
+                    <div > <input className="remember_me" type="checkbox" /> 
                     <span className="remember_me_text">Remember me</span></div>
                     <div><span><a className ="forgot_pass" style={{ textDecoration: 'none', display: 'block' }} href="">Forgot Password</a></span></div>
                 </div>
 
                 <div className='Login-SignUp-button-div'>
-                    <button className='login-lignUp-buttons' onClick={submitButton}><span >Login</span></button>
-                    <button className='login-lignUp-buttons' onClick={submitButton}><span >Sign up</span></button>
+                    <button className='login-signUp-buttons' onClick={submitButton}><span >Login</span></button>
+                    <button className='login-signUp-buttons' onClick={submitButton}><span >Sign up</span></button>
                 </div>
                 </div>
 
