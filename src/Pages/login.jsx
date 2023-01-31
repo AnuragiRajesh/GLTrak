@@ -15,13 +15,13 @@ function Login() {
         console.log(e.target.value, "fff")
         setInputField({ [e.target.name]: e.target.value })
     }
-
+    
     const submitButton = () => {
         alert(inputField.Username, inputField.password, inputField.remember_me)
     }
-    return <div class="login-div" >
-        <div class="login-image-div" ></div>
-        <div class="form-div" >
+    return <div className="login-div" >
+        <div className="login-image-div" ></div>
+        <div className="form-div" >
             <div style={{ textAlign: "center", margin: '3rem' }}>
                 <div className='top-Heading' >TAG MANAGEMENT SYSTEM</div>
                 <div><img style={{ width: '30%', }} src={ima3} /></div>
@@ -45,7 +45,8 @@ function Login() {
                     type="password" name="password"
                     onChange={inputsHandler}
                     placeholder="Password"
-                    value={inputField.password} />
+                    value={inputField.password}/>
+            
 
  <div>
                 <div className='RememberME-ForgotPassword'>
